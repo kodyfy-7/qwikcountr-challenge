@@ -3,6 +3,8 @@
 ## Usage <br>
 Setup the repository <br>
 ```
+git clone git@github.com:kodyfy-7/qwikcountr-challenge.git
+cd qwikcountr-challenge
 composer install
 cp .env.example .env 
 php artisan key:generate
