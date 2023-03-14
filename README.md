@@ -12,6 +12,19 @@ php artisan cache:clear && php artisan config:clear
 php artisan serve 
 ```
 
+## Usage <br>
+Setup the repository <br>
+```
+git clone git@github.com:
+cd laravel-sanctum-tutorial
+composer install
+cp .env.example .env 
+php artisan key:generate
+php artisan cache:clear && php artisan config:clear 
+php artisan serve 
+```
+
+
 ## Database Setup <br>
 ```
 mysql;
